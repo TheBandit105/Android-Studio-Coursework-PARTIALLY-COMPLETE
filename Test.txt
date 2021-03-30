@@ -1,0 +1,2 @@
+This note file is to check if GitHub push towards GitLab works for this Java coursework repository.
+ 
