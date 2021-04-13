@@ -29,7 +29,7 @@ class BitmapStore {
         // Put a default bitmap in each of the maps
         // to return in case a bitmap doesn't exist
         addBitmap(c,
-                "death_visible",
+                "death",
                 new PointF(1, 1),
                 128,
                 true);
@@ -40,7 +40,7 @@ class BitmapStore {
         if (mBitmapsMap.containsKey(bitmapName)) {
             return mBitmapsMap.get(bitmapName);
         } else {
-            return mBitmapsMap.get("death_visible");
+            return mBitmapsMap.get("death");
         }
     }
 
@@ -49,7 +49,7 @@ class BitmapStore {
         if (mBitmapsReversedMap.containsKey(bitmapName)) {
             return mBitmapsReversedMap.get(bitmapName);
         } else {
-            return mBitmapsReversedMap.get("death_visible");
+            return mBitmapsReversedMap.get("death");
         }
     }
 

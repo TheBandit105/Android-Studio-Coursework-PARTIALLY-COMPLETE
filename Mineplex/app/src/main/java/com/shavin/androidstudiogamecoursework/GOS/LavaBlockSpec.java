@@ -3,7 +3,7 @@ package com.shavin.androidstudiogamecoursework.GOS;
 import android.graphics.PointF;
 
 public class LavaBlockSpec extends GameObjectSpec {
-    private static final String id = "Death";
+    private static final String id = "Death Block";
     private static final String bmpNA = "lava";
     private static final int frmno = 3;
     private static final float v = 0f;

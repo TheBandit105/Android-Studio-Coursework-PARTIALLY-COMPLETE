@@ -4,7 +4,7 @@ package com.shavin.androidstudiogamecoursework.GOS;
 import android.graphics.PointF;
 
 public class WoodLiftBlockSpec extends GameObjectSpec {
-    private static final String id = "Moving Block";
+    private static final String id = "Non-static Block";
     private static final String bmpNA = "wood_lift";
     private static final int frmno = 1;
     private static final float v = 3f;

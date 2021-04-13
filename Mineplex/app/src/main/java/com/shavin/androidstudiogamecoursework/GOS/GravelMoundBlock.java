@@ -3,7 +3,7 @@ package com.shavin.androidstudiogamecoursework.GOS;
 import android.graphics.PointF;
 
 public class GravelMoundBlock extends GameObjectSpec {
-        private static final String id = "Inert Tile";
+        private static final String id = "Static Block";
         private static final String bmpNA = "gravel_mound";
         private static final int frmno = 1;
         private static final float v = 0f;

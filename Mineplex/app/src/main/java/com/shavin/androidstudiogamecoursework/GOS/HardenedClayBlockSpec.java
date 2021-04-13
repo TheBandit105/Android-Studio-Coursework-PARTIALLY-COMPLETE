@@ -4,7 +4,7 @@ import android.graphics.PointF;
 
 public class HardenedClayBlockSpec extends GameObjectSpec {
 
-    private static final String id = "Inert Tile";
+    private static final String id = "Static Block";
     private static final String bmpNA = "hardened_clay";
     private static final int frmno = 1;
     private static final float v = 0f;
