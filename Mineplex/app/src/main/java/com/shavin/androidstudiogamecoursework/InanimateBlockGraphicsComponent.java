@@ -19,7 +19,7 @@ class InanimateBlockGraphicsComponent implements GraphicsComponent {
                            PointF objectSize,
                            int pixelsPerMetre) {
 
-        mBitmapName = spec.getBitmapName();
+        mBitmapName = spec.getBmpNa();
 
         BitmapStore.addBitmap(context,
                 mBitmapName, objectSize,

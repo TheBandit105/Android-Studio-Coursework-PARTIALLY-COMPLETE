@@ -33,7 +33,7 @@ public abstract class GameObjectSpec {
         return ID;
     }
 
-    public String getBmpNo(){
+    public String getBmpNa(){
         return BmpNA;
     }
 
